@@ -1,0 +1,51 @@
+table tr td,table th{
+  text-align: center !important;
+}
+
+/*********************** Numbers ****************************/
+table tr th.column-itemname{
+  text-align: center !important;
+  padding-right: 20px;
+}
+table tr th.column-itemname img{
+  float: right;
+}
+
+/*********************** Page Content ****************************/
+ion-content {
+  direction: rtl;
+  text-align: right;
+}
+/* section */
+section a.item.item-icon-right,mm-course-list-item{
+  text-align: center;
+}
+
+/*************************** Side Bar And Header *************************/
+
+.bar-header {
+  background-color: #5069a1;
+}
+
+ion-side-menu li .item {
+  background-color: #313848;
+  border-color: #4f5865;
+  color: #bcc3cf;
+  direction: rtl;
+  text-align: right;
+}
+
+ion-side-menu li.item {
+  border-color: #4f5865;
+}
+
+ion-side-menu li.item.item-divider {
+  background-color: #3e4755;
+}
+
+
+/*********************** Loading Bar Content **************************/
+
+.item-note{
+  float: left;
+}
