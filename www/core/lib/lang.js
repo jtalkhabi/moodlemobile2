@@ -248,7 +248,7 @@ angular.module('mm.core')
     $translatePartialLoaderProvider.addPart('build/lang');
 
     // Set fallback language and language to use until the app determines the right language to use.
-    var lang = mmCoreConfigConstants.default_lang || 'en';
+    var lang = mmCoreConfigConstants.default_lang || 'fa';
     $translateProvider.fallbackLanguage(lang);
     $translateProvider.preferredLanguage(lang);
 })
